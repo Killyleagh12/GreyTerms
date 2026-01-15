@@ -3,11 +3,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url('images/hintergrund.jpg'); /* Bild in images-Ordner */
-  background-size: cover;   /* passt das Bild an Bildschirmgröße an */
-  background-position: center;
-  background-repeat: no-repeat;
-  color: white;             /* Textfarbe anpassen, damit man ihn sieht */
+  background-color: #f9f9f9;
+  color: #333;
 }
 
 
@@ -52,9 +49,9 @@ section {
 }
 
 #hero {
-  background-color: #0077cc;
-  color: white;
+  background-image: url('images/hero.jpg');
 }
+
 
 #hero h2 {
   margin: 0 0 20px 0;
@@ -67,4 +64,5 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
+
 
