@@ -32,7 +32,7 @@ nav {
 }
 
 nav a {
-  color: black;
+  color: red;
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
@@ -64,6 +64,7 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
+
 
 
 
