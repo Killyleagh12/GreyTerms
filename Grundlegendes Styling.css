@@ -3,9 +3,13 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
+  background-image: url('images/hintergrund.jpg'); /* Bild in images-Ordner */
+  background-size: cover;   /* passt das Bild an Bildschirmgröße an */
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;             /* Textfarbe anpassen, damit man ihn sieht */
 }
+
 
 .container {
   width: 90%;
@@ -63,3 +67,4 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
+
